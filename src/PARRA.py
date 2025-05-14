@@ -6,22 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
 
-def hello_world(i: int = 0) -> str:
-    """Doc String."""
-    print("hello world")
-    return f"string-{i}"
-
-
-def good_night() -> str:
-    """Doc String."""
-    print("good night")
-    return "string"
-
-
-def hello_goodbye():
-    hello_world(1)
-    good_night()
-
 
 def predict_hedonic_labels(df, model, tokenizer, device, hedonic_labels, column_FreeJAR_description: int, hypothesis_template: str = None):
     """
