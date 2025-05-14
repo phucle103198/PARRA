@@ -1,5 +1,5 @@
 env/
-model/
+model/fine_tuned_deberta_nli 018/
 __pycache__/
 *.pyc
 *.pyo
